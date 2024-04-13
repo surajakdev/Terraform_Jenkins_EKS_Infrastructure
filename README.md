@@ -1,4 +1,4 @@
-# Deployment of Ngnix server on AWS EKS cluster using Jenkins and Terraform.
+# Deployment of Nginx server on AWS EKS cluster using Jenkins and Terraform.
 
 ## Infrastructure built using terraform which will have jenkins server running in AWS VPC and then to manually trigger Jenkins pipline to make use of terraform template in github which contain's terraform module to deploy EKS cluster which will have ngnix server running in it.
 
