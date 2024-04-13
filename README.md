@@ -1,6 +1,6 @@
-# Deployment of Nginx server on AWS EKS cluster using Jenkins and Terraform.
+# Deployment of Nginx on AWS EKS cluster using Jenkins and Terraform.
 
-## Infrastructure built using terraform which will have Jenkins server running in AWS VPC and then to manually trigger Jenkins pipeline to make use of terraform template in github which contains terraform module to deploy EKS cluster which will have Nginx server running in it.
+## Infrastructure built using terraform which will have Jenkins server running in AWS VPC and then to manually trigger Jenkins pipeline to make use of terraform template in github which contains terraform module to deploy EKS cluster which will have Nginx running in it.
 
 ### Initializing terraform at CLI of local machine.
 ![1](https://github.com/surajakdev/Terraform_Jenkins_EKS_Infrastructure/assets/158173648/2f618f73-d98d-4a9e-be1d-1f996b37e7e0)
